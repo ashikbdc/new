@@ -4,32 +4,190 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="design.css">
+    <title>Design Home</title>
     <style>
-     footer {
+      body {
+         margin: 0px;
+      }
+
+.icon-bar {
+  width: 80px;
+  background-color: green;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 11px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+        * { 
+         box-sizing: border-box;
+      }
+      html, body {
+         margin: 0;
+         padding: 0;
+      }
+      .nav-bar a {
+         text-decoration: none;
+         color: black;
+         display: block;
+      }
+      .nav-bar > ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+      }
+      .nav-bar > ul > li > a {
+         padding: 11px;
+         margin-left: 0px;
+         background: lightgrey;
+      }
+      .nav-bar > ul > li > a:hover {
+         background: green;
+         color: white;
+      }
+      .nav-bar .active {
+         background: blue;
+         color: black;
+         margin-left: 55px;
+      }
+      .nav-bar > ul > li {
+         float: left;
+         width: 25%; /* 100% / 4 (number of li elements) = 25% */
+         text-align: center;
+      }
+       .input {
+         margin-left: 25%;
+       }
+
+        .iconon {
+         display: flex;
+         padding: 11%;
+        }
+        .icon {
+         padding-right: 3%;
+        }
+        .icon1 {
+         padding-right: 3%;
+        }
+         .submit{
+            border-radius: 25px;
+            background: rgb(52, 17, 167);
+            color: rgb(234, 245, 238);
+         }
+         .pi {
+            display; flex;
+            padding: 1%;
+         }
+         .part {
+            display: flex;
+            padding-right: 22%;
+         }
+         .img {
+            size: 50%;
+            padding-left: 20%;
+         }
+
+        body {
+            background-image: url("spras.jpg");
+            background-repeat: no-repeat;
+            background-size:100% 500%;
+        }
+        footer {
         text-align: center;
         padding: 5px;
         background-color: black;
         color: white;                 
-     }
-     
+     }  
     </style>
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   
 </head>
-<body>
-<p>bagladesh 
-</p>
-<a href="www.wikipedia.com">
-    <image src="wikipedia.png" alt="wikipedia" weight="25px" height="25px"
- </a>
-     
-    
-    <img src="water_drop.jpg" width="1000" height="560"> 
-    
+<body> 
+  
+    <!-- nav section start in here -->
+    <div class="nav">
+      <img src="water_drop.jpg" alt="logo" width="4%">
+  </div>
+
+    </div>
+  <div class="nav-bar">
+        <ul>
+           <li><a href="#" class="active"> Home </a></li>
+           <li><a href="#"> About </a></li>
+           <li><a href="#"> Contact </a></li>
+           <li><a href="#"> Gallery </a></li>
+        </ul>
+     </div>
+<!-- nav section end in here -->
+
+
+ <!-- input section start in here -->
+<div class="input">
+   <form action="/action_page.php">
+      <label for="fname">Serch Here</label><br>
+      <input type="text" id="fname" name="fname" size="70">
+      <button class="submit">ok</button>
+    </form>
+</div>
+ <!-- input section end in here -->
+<div class="iconon">
+   <div class="icon">
+      <a href="www.wikipeedia.com">
+         <image src="wikipedia.png" alt="wikipedia" width="55px" height="44px"></image>
+      </a>
+   </div>
+   <div class="icon1"
+      <a href="www.facebook.com">
+      <image src="facebook.png" alt="facebook" width="55px" height="44px"></image>
+      </a>
+   </div>
+   <div class="icon2"
+      <a href="www.google.com">
+         <image src="google.png" alt="google" width="55px" height="44px"></image>
+      </a>
+   </div>
+</div>
+
+
+
+   
+    <div class="text">
+      <h1> Hi !<br> I am <BR></BR>(ASHIK SHEIKH) From Bangladesh.</h1>
+  </div>
+ <!-- About section end in here -->
+
+   
+<!-- p section start in here -->
+  <p>Hello,</p>
+<div class="pi">
+    <div class="part">
+      <p> Welcome to my profile.,<br>
+        I am a professional "web developer" more than 
+        many years And always i try new creative work.<br>
+        It is my real hobby & Fashion. I have more 
+        then experience about that- 
+     </P>
+ 
+   <div class="img">
+     <img src="spras.png" alt="pic-2" width="55%">
+   </div> 
+ 
+  # web devolopment <br>
+  # Web Design <br>                            
+  # Also i'm waiting for your best co-operation.
+</div>
+         
+<!-- p section end in here -->
     <footer>
-        <p>pleace contact this gmail<br>
-        <a href="mailto:hege@example.com">mdashiksheikh.official@gmail.com</a></p>
-      </footer>  
-      
+      <p>pleace contact this email<br>
+       <a href="mailto:hege@example.com">mdashiksheikh.official@gmail.com</a></p>
+   </footer>  
+
 </body>
 </html>
